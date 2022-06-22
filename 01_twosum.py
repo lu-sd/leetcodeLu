@@ -8,7 +8,8 @@ class Solution:
             else:
                 return [index, mapping[diff]]
 
-input = [2,7,11,15]
+input = [2,7,11,15] 
+
 target = 9
 A = Solution()
 result = A.twosum( input, 9 )
